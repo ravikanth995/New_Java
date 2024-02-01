@@ -1,5 +1,7 @@
 package String_functions;
 
+import java.util.Arrays;
+
 public class String_funcs {
 
 	public static void main(String[] args) {
@@ -35,10 +37,31 @@ public class String_funcs {
 //		System.out.println(a[0]);
 //		System.out.println(a[1]);
 		
-		String r = "Ravikanthchuahan95@gmail.com";
-		String a[] = r.split("@");
+//		String r = "Ravikanthchuahan95@gmail.com";
+//		String a[] = r.split("@");
+//		System.out.println(a[0]);
+//		System.out.println(a[1]);
+		
+//		String s = "Ravikanthchauhan96@gmail.com";
+//		String a [] = s.split("@");
+//		System.out.println(a[1]); 
+		
+//		String s = "ravikanthchauhan95@gmail.com";
+//		String a[] = s.split("@");
+//		System.out.println(Arrays.toString(a));
+		
+		String s = "ravikanthchauhan95@gmail.com";
+		String a[] = s.split("@");
 		System.out.println(a[0]);
 		System.out.println(a[1]);
+		System.out.println(Arrays.toString(a));
+		
+		String amount = "$20,20,60";
+		System.out.println(amount.replace("$", "").replace(",", ""));
+		
+		
+		
+		
 	}
 
 }
