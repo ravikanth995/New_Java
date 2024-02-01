@@ -98,6 +98,8 @@ public class string_practice {
 //		String a = "Shashi Kanth";
 //		System.out.println(a.substring(0, 9));
 		
+		String ar = "Ravikanth";
+		System.out.println(ar.substring(0, 6));
 		
 		
 		
