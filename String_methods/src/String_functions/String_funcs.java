@@ -49,19 +49,120 @@ public class String_funcs {
 //		String s = "ravikanthchauhan95@gmail.com";
 //		String a[] = s.split("@");
 //		System.out.println(Arrays.toString(a));
+//		
+//		String s = "ravikanthchauhan95@gmail.com";
+//		String a[] = s.split("@");
+//		System.out.println(a[0]);
+//		System.out.println(a[1]);
+//		System.out.println(Arrays.toString(a));
+//		
+//		String amount = "$20,20,60";
+//		System.out.println(amount.replace("$", "").replace(",", ""));
+//		
+////		String b = "abc,123@xyz";
+////		String arr [] = b.split(",");
+////		System.out.println(Arrays.toString(arr));
+////		System.out.println(arr[0]);
+////		System.out.println(arr[1]);
+////		
+////		String[] arr2 = arr[1].split("@");
+////		System.out.println(Arrays.toString(arr2));
+//		
+//		String b = "abc, 123@hotmail.com";
+//		String arr[] = b.split(",");
+//		System.out.println(Arrays.toString(arr));
+//		
+//		String arr2[] = arr[1].split("@");
+//		System.out.println(Arrays.toString(arr2));
+//		
+//		String arr3 = "Ravi, 1995@Kanth";
+//		String arr4[] = arr3.split(",");
+//		System.out.println(Arrays.toString(arr4));
+//		
+//		String arr5[] = arr4[1].split("@");
+//		System.out.println(Arrays.toString(arr5));
+//		
+//		String arr6 = "Ravi, 1995@gmail.com";
+//		String arr7 [] = arr6.split(",");
+//		System.out.println(Arrays.toString(arr7));
+//		
+//		String arr8 [] = arr7[1].split("@");
+//		System.out.println(Arrays.toString(arr8));
+//		
+//		System.out.println(arr7[0]);
+//		System.out.println(arr8[0]);
+//		System.out.println(arr8[1]);
 		
-		String s = "ravikanthchauhan95@gmail.com";
-		String a[] = s.split("@");
-		System.out.println(a[0]);
-		System.out.println(a[1]);
-		System.out.println(Arrays.toString(a));
+//		String s = "Ravi, 123@Kanth";
+//		String ar [] = s.split(",");
+//		System.out.println(Arrays.toString(ar));
+//		
+//		String ar1[] = ar[0].split("@");
+//		System.out.println(ar[0]);
+//		System.out.println(ar1[0]);
+//		System.out.println(ar1[1]);
 		
-		String amount = "$20,20,60";
-		System.out.println(amount.replace("$", "").replace(",", ""));
-		
-		
-		
-		
-	}
+//		String s = "Ravi, 123@Kanth";
+//		String ar [] = s.split(",");
+//		System.out.println(Arrays.toString(ar));
 
+//        System.out.println(ar[1]); // Prints: 123@Kanth
+//        System.out.println(arr1[0]); // Prints: 123
+//        System.out.println(arr1[1]);
+		
+//		String str = "Ravi, 123@Kanth";
+//		String arr [] = str.split(",");
+//		System.out.println(Arrays.toString(arr));
+//		
+//		String arr1[] = arr[1].split("@");
+//		System.out.println(arr[1]);
+//		System.out.println(arr1[0]);
+//		System.out.println(arr1[1]);
+		
+//		String a = "Ravi, 123@Kanth";
+//		String ar[] = a.split(",");
+//		System.out.println(Arrays.toString(ar));
+//		
+//		String arr1 [] = ar[1].split("@");
+//		System.out.println(ar[1]);
+//		System.out.println(arr1[0]);
+//		System.out.println(arr1[1]);
+		
+//		String a = "Ravi, 123@Kanth";
+//		String ar [] = a.split(",");
+//		System.out.println(Arrays.toString(ar));
+//		
+//		String arr[] = ar[1].split("@");
+//		System.out.println(ar[1]);
+//		System.out.println(arr[0]);
+//		System.out.println(arr[1]);
+		
+//		String a = "Ravi, 112@gmail.com";
+//		System.out.println(a);
+//		
+//		String ar[] = a.split(",");
+//		System.out.println(Arrays.toString(ar));
+//		
+//		String arr[] = ar[1].split("@");
+//		System.out.println(ar[0]);
+//		System.out.println(arr[0]);
+//		System.out.println(arr[1]);
+         
+		String a = "Ravi, KAnth@chauhan.in";
+		System.out.println(a);
+		
+	   String ar [] = a.split(",");
+	   System.out.println(Arrays.toString(ar));
+	   
+	   System.out.println(ar[0]);
+	   
+	   String arr [] = ar[1].split("@");
+	   System.out.println(arr[0]);
+	   System.out.println(arr[1]);
+	   
+	   
+		
+		
+//		
+	}
 }
