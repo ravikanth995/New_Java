@@ -148,17 +148,38 @@ public class String_funcs {
 //		System.out.println(arr[0]);
 //		System.out.println(arr[1]);
          
-		String a = "Ravi, KAnth@chauhan.in";
-		System.out.println(a);
+//		String a = "Ravi, KAnth@chauhan.in";
+//		System.out.println(a);
+//		
+//	   String ar [] = a.split(",");
+//	   System.out.println(Arrays.toString(ar));
+//	   
+//	   System.out.println(ar[0]);
+//	   
+//	   String arr [] = ar[1].split("@");
+//	   System.out.println(arr[0]);
 		
-	   String ar [] = a.split(",");
+	   String a= "Ravi, Kanth@chauhan.in";
+	   System.out.println(a);
+	   
+	   String ar[] = a.split(",");
 	   System.out.println(Arrays.toString(ar));
 	   
-	   System.out.println(ar[0]);
+	   System.out.println(ar[0]);//Ravi
+	   System.out.println(ar[1]); //Kanth@chauhan.in
+        
+	   String arr[] = ar[1].split("@");
+	   System.out.println(Arrays.toString(arr)); //[Kanth, chauhan.in]
 	   
-	   String arr [] = ar[1].split("@");
-	   System.out.println(arr[0]);
-	   System.out.println(arr[1]);
+	   String arr1[] = arr[0].split(".");
+	   System.out.println(ar[0]); //Ravi
+	   System.out.println(arr[0]); //Kanth
+	   System.out.println(arr[1]); //Chauhan.in
+	   
+	   
+	   
+	   
+	  
 	   
 	   
 		
