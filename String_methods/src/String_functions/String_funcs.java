@@ -158,23 +158,40 @@ public class String_funcs {
 //	   
 //	   String arr [] = ar[1].split("@");
 //	   System.out.println(arr[0]);
+//		
+//	   String a= "Ravi, Kanth@chauhan.in";
+//	   System.out.println(a);
+//	   
+//	   String ar[] = a.split(",");
+//	   System.out.println(Arrays.toString(ar));
+//	   
+//	   System.out.println(ar[0]);//Ravi
+//	   System.out.println(ar[1]); //Kanth@chauhan.in
+//        
+//	   String arr[] = ar[1].split("@");
+//	   System.out.println(Arrays.toString(arr)); //[Kanth, chauhan.in]
+//	   
+//	   String arr1[] = arr[0].split(".");
+//	   System.out.println(ar[0]); //Ravi
+//	   System.out.println(arr[0]); //Kanth
+//	   System.out.println(arr[1]); //Chauhan.in
+       
+	  //Name = John Kannedy but i want tot match the string wether capital or small letter
 		
-	   String a= "Ravi, Kanth@chauhan.in";
-	   System.out.println(a);
+//		String name = "JOHN Kennedy";
+//		System.out.println(name.contains("john"));
+//		
+//		//Now we replace the upper letter with the Small letter
+//		
+//		System.out.println(name.replace("JOHN", "john").contains("john"));
+		
+		String a = "RAVIKANTH CHAUHAN";
+		System.out.println(a.contains("ravi"));
+		
+		System.out.println(a.replace("RAVI", "ravi").contains("ravi"));
+		
+		
 	   
-	   String ar[] = a.split(",");
-	   System.out.println(Arrays.toString(ar));
-	   
-	   System.out.println(ar[0]);//Ravi
-	   System.out.println(ar[1]); //Kanth@chauhan.in
-        
-	   String arr[] = ar[1].split("@");
-	   System.out.println(Arrays.toString(arr)); //[Kanth, chauhan.in]
-	   
-	   String arr1[] = arr[0].split(".");
-	   System.out.println(ar[0]); //Ravi
-	   System.out.println(arr[0]); //Kanth
-	   System.out.println(arr[1]); //Chauhan.in
 	   
 	   
 	   
